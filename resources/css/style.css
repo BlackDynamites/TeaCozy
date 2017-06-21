@@ -50,7 +50,7 @@ main {
   height: 700px;
   width: 1200px;
   position: relative;
-  margin-top: 62px;
+  padding-top: 75px;
   background-image: url(../images/mission-background.jpg);
   align-items: center;
 }
@@ -80,7 +80,7 @@ main {
   width: 1000px;
   justify-content: center;
   align-items: center;
-  margin-top: 40px;
+  padding-top: 70px;
 }
 
 .month-text {
@@ -142,6 +142,7 @@ main {
   background-image: url(../images/locations-background.jpg);
   height: 500px;
   width: 1200px;
+  margin-top: 70px;
 }
 
 .location-text {
@@ -173,4 +174,19 @@ main {
 
 .location-box h4 {
   margin-top: 10px;
+}
+
+.footer-top {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 200px;
+}
+
+.footer-top h2, h5 {
+  margin-top: 10px;
+}
+
+.footer-bottom {
+  margin-left: 20px;
 }
