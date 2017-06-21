@@ -81,25 +81,43 @@ main {
   justify-content: center;
   align-items: center;
   margin-top: 40px;
-  border: 1px white solid;
 }
 
-.month-top {
+.month-text {
   width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
-  border: 1px white solid;
+}
+
+.month-text h2 {
+  margin-bottom: 0;
 }
 
 .month-images {
-  border: 1px white solid;
+  display: flex;
+  align-items: center;
+  width: 1000px;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.mi-top {
   display: flex;
   align-items: center;
   width: 1000px;
   flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.mi-bottom {
+  display: flex;
+  align-items: center;
+  width: 70%;
+  flex-direction: row;
   justify-content: space-around;
 }
+
 
 .month img {
   height: 200px;
@@ -107,8 +125,52 @@ main {
 }
 
 .img-box {
-  border: 1px white solid;
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+.img-box h4 {
+  margin-top: 10px;
+}
+
+.location {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-image: url(../images/locations-background.jpg);
+  height: 500px;
+  width: 1200px;
+}
+
+.location-text {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.location-text h2 {
+  margin-bottom: 0;
+}
+
+.location-bottom {
+  display: flex;
+  justify-content: center;
+  margin-top: 0;
+}
+
+
+.location-box {
+  display: flex;
+  width: 300px;
+  opacity: 1;
+  background-color: black;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 20px;
+}
+
+.location-box h4 {
+  margin-top: 10px;
 }
